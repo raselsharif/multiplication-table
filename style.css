@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+input,.btn{
+    padding: 10px;
+    outline: none;
+    border: 1px solid tan;
+    font-size: 20px;
+}
+.btn{
+    background: tomato;
+    color: white;
+    cursor: pointer;
+}
+input:focus{
+    border-color: red;
+}
+.ans{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 20px 10px;
+    background: rgb(82, 77, 72);
+    font-size: 20px;
+    border: 1px solid bisque;
+    color: white;
+}
